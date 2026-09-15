@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181a20" />
+      <stop offset="100%" stop-color="#0d0f12" />
+    </linearGradient>
+    <linearGradient id="amber-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <rect width="400" height="400" fill="url(#bg-grad)" />
+  <circle cx="200" cy="200" r="185" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="8 6" opacity="0.4" />
+  
+  <!-- Stylized Developer Silhouette & Code Accent -->
+  <circle cx="200" cy="150" r="65" fill="#232730" stroke="#f59e0b" stroke-width="3" />
+  <!-- Glasses -->
+  <rect x="155" y="140" width="35" height="22" rx="4" fill="none" stroke="#f59e0b" stroke-width="3" />
+  <rect x="210" y="140" width="35" height="22" rx="4" fill="none" stroke="#f59e0b" stroke-width="3" />
+  <line x1="190" y1="150" x2="210" y2="150" stroke="#f59e0b" stroke-width="3" />
+  <!-- Smile -->
+  <path d="M 180 185 Q 200 200 220 185" fill="none" stroke="#f59e0b" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Torso with Hood / Jacket -->
+  <path d="M 110 320 C 110 240 150 225 200 225 C 250 225 290 240 290 320 Z" fill="#1e222b" stroke="#f59e0b" stroke-width="2" />
+  
+  <!-- Code Symbols floating -->
+  <text x="60" y="120" fill="#f59e0b" font-family="monospace" font-size="24" font-weight="bold" opacity="0.6">&lt;/&gt;</text>
+  <text x="310" y="240" fill="#f59e0b" font-family="monospace" font-size="20" font-weight="bold" opacity="0.5">{ M }</text>
+  <text x="70" y="260" fill="#9ca3af" font-family="monospace" font-size="16" opacity="0.5">// mern</text>
+  <text x="290" y="100" fill="#9ca3af" font-family="monospace" font-size="18" opacity="0.6">async()</text>
+</svg>
